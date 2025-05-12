@@ -20,6 +20,6 @@ const newSongsArray = songsArray.map((currentSongObj) => {
 const responseSongs = await db.collection("songs").insertMany(newSongsArray);
 const responseArtists = await db.collection("artists").insertMany(newArtistArray);
 
-console.log(responseSongs);
-console.log(responseArtists);
+//console.log(responseSongs);
+//console.log(responseArtists);
 //console.log(songsArray);
